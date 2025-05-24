@@ -48,7 +48,7 @@ $message = $_POST['message'];
 
 
 // Create the email and send the message
-$to = 'lpd@10g.pl'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
+$to = 'email@oo.pl'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
 $email_subject = "Nowa wiadomość ze strony EMRAT";
 $email_body = "Szczegóły wiadomości:\n\nImię: $name\n\nEmail: $email_address\n\nNr Telefonu: $phone\n\nWiadomość:\n$message";
 $headers = "From: WWWemratautomatyka.pl\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
