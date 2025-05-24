@@ -1,6 +1,6 @@
 <?php
 // Who you want to recieve the emails from the form.
-$sendto = 'komp03@o2.pl';
+$sendto = 'adresEmail@o.pl';
 
 // The subject you'll see in your inbox
 $subject = 'Wiadomość ze strony EMRAT';
